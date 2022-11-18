@@ -1,0 +1,54 @@
+.home-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.greeting-container {
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.profile-picture {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+img {
+    
+    max-height: 375px;
+    max-width: 375px;
+}
+
+@media (640px <= width){
+    .intro-container{
+        display: flex;
+        flex-direction: row;
+    }
+    img {
+        max-height: 450px;
+        max-width: 450px;
+    }
+    .greeting-container {
+        margin: 0px 10px 0px 0px;
+        width: 50%;
+        height: 100%;
+        padding: 10px;
+    }
+}
