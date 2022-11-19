@@ -3,7 +3,8 @@
     margin: 0;
     width: 100%;
     height: fit-content;
-    /* border: 2px solid black; */
+    /* background-color: #c696499e;
+    border: 2px solid black; */
     justify-content: center;
 }
 
@@ -18,5 +19,20 @@
 }
 
 .header-button {
-    margin: 0px 10px 0 10px;
+    margin: 0px 20px 10px 10px;
+    background: none;
+    border: 0.2px solid #51557E;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    transition: 450ms;
+    font-size: 20px;
+}
+
+.header-button:hover {
+    border:1px solid black;
+    border-radius: 5px;
+    color: #816797;
+    box-shadow: -5px 8px 10px black;
+    cursor: pointer;
 }

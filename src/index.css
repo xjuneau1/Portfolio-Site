@@ -3,4 +3,6 @@ body {
     padding: 0px;
     height: 100%;
     width: 100%;
+    background-image: url(./images/bckgrnd.jpg);
+    background-attachment: fixed;
 }

@@ -16,6 +16,10 @@ function Home() {
           />
         </div>
       </div>
+
+      <div className="experience-container">Experience</div>
+
+      <div className="contact-links-container">Contact Me & My Links</div>
     </div>
   );
 }
