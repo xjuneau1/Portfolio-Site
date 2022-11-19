@@ -5,7 +5,7 @@ function Header() {
     const [navbar, setNavbar] = useState(false)
 
     const changeHeaderBackground = () => {
-        if(window.scrollY < 80){
+        if(window.scrollY < 20){
            return setNavbar(true)
         }
         setNavbar(false)

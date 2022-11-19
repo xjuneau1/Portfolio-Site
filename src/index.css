@@ -7,4 +7,5 @@ body {
     background-image: url(./images/bckgrnd.jpg);
     background-attachment: fixed;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
