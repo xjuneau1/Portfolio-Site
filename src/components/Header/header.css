@@ -12,6 +12,7 @@
 
 .header-container.active {
     background-color: #1B2430;
+    border-bottom: 1px solid #51557E;
 }
 
 .header-buttons-container {
@@ -19,13 +20,13 @@
     align-items: center;
     flex-wrap: wrap;
     width: 60%;
-    height: 100px;
+    height: fit-content;
     /* border: 1px solid blue; */
     justify-content: safe center;
 }
 
 .header-button {
-    margin: 0px 20px 10px 10px;
+    margin: 10px 20px 10px 20px;
     background: none;
     border: 1px solid #51557E;
     border-radius: 5px;
