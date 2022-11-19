@@ -1,0 +1,16 @@
+[
+    {
+        "picture": "./images/project1.jpg",
+        "name": "Project 1",
+        "description": "Lorem ipsum dolor sit et nuit ipsum do",
+        "link": "https://www.google.com",
+        "linkIcon": "./images/project1.jpg"
+      },
+      {
+        "picture": "./images/project1.jpg",
+        "name": "Project 2",
+        "description": "Lorem ipsum dolor sit et nuit ipsum do",
+        "link": "https://www.google.com",
+        "linkIcon": "./images/project1.jpg"
+      }
+]
