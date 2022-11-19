@@ -1,4 +1,7 @@
 div {
     margin: 0px;
-    background-color: #282a3a;
+}
+
+.scrolled {
+    background-color: black;
 }
