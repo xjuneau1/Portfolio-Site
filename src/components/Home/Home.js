@@ -15,7 +15,7 @@ function Home() {
           <h1>Hi, I'm Xander!</h1>
           <p>
             Full-stack Developer proficient in Javascript, React.js, Node.js,
-            PostgreSQL, and CSS.
+            PostgreSQL, and CSS. I build responsive websites, REStful APIs and SQL Databases.
           </p>
         </div>
         <div className="profile-picture-container">
