@@ -28,7 +28,7 @@
 .header-button {
     margin: 10px 20px 10px 20px;
     background: none;
-    border: none;
+    border: 1px solid rgba(255, 255, 255, 0);
     color: #D6D5A8;
     padding: 10px;
     transition: ease-in-out 850ms;

@@ -1,6 +1,7 @@
 import React from "react";
 import "./projects.css";
 import projects from '../../data/projects.json'
+
 function Projects() {
 
   const handleOnMouseMove = (e) => {
@@ -27,7 +28,7 @@ function Projects() {
             >
               <div className="project-card-row">
                 <div className="project-card-image">
-                    <img src={`${picture}`} />
+                    <img src={picture} />
                 </div>
                 <div className="project-card-name">{name}</div>
               </div>
@@ -35,10 +36,11 @@ function Projects() {
                 <div className="project-card-description">{description}</div>
               </div>
               <div className="project-card-row-links">
-                <div className="project-card-links"></div>
+                <div className="project-card-links">
+                    
+                </div>
               </div>
             </div>
-            <div className="project-description"></div>
           </div>
         );
       })}
