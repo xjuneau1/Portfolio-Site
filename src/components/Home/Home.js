@@ -71,7 +71,6 @@ function Home() {
         <h2>Links & Contact</h2>
         <div className="contact-links-inner">
           <EmailForm />
-          <div className="personal-links"></div>
         </div>
       </div>
     </div>

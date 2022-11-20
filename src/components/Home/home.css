@@ -133,12 +133,12 @@ img {
     align-self: center;
 }
 .contact-links-inner {
-    display: flex;
+    flex-direction: row;
     border: 1px solid blue;
 }
 .personal-links {
     max-width: 50%;
-    border: 1px solid blue;
+    height: 500px;
 }
 
 @media (640px <= width){
