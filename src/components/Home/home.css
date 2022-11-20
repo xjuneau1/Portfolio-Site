@@ -120,14 +120,25 @@ img {
 }
 
 .contact-links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 30px 10px 20px 10px;
     border: 1px solid #51557E;
     border-radius: 5px;
     padding: 20px;
 }
 .contact-links-container > h2 {
-    color: #1B2430;
-    text-decoration: 1.2px solid underline #D6D5A8;
+    color: #D6D5A8;
+    align-self: center;
+}
+.contact-links-inner {
+    display: flex;
+    border: 1px solid blue;
+}
+.personal-links {
+    max-width: 50%;
+    border: 1px solid blue;
 }
 
 @media (640px <= width){

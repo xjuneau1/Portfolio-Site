@@ -1,5 +1,5 @@
 {
-    "frontend":["HTML", "CSS", "Bootstrap CSS", "Tailwind CSS", "Javascript", "React.js", "Node.js"],
+    "frontend":["HTML", "Javascript", "CSS", "Bootstrap CSS", "Tailwind CSS", "React.js", "Node.js"],
     "backend":["Express.js", "PostgreSQL", "Knex.js", "pg.js", "Node.js"],
     "other":["WordPress"]
 }

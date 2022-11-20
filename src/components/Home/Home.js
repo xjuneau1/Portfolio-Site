@@ -1,9 +1,10 @@
 import React from "react";
+import EmailForm from "./EmailForm";
 import skills from "../../data/skills.json"
-import "./home.css";
-import profile from "./profile.JPG";
+import profile from "../../images/profile.JPG";
 import thinkful from "../../images/thinkfulicon.jpg";
 import valencia from "../../images/valenciaicon.png";
+import "./home.css";
 function Home() {
   const {frontend, backend, other} = skills
 
@@ -68,7 +69,10 @@ function Home() {
       {/*Contact & Links Section*/}
       <div className="contact-links-container">
         <h2>Links & Contact</h2>
-        <div className="contact-links-entry"></div>
+        <div className="contact-links-inner">
+          <EmailForm />
+          <div className="personal-links"></div>
+        </div>
       </div>
     </div>
   );

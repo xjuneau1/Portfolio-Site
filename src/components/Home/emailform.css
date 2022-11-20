@@ -1,0 +1,8 @@
+.email-form {
+    width: 50%;
+    padding: 20px;
+}
+.email-form > form{
+    display: flex;
+    flex-direction: column;
+}
