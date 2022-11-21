@@ -1,5 +1,6 @@
 import React from "react";
 import EmailForm from "./EmailForm";
+import PersonalLinks from "./PersonalLinks";
 import skills from "../../data/skills.json"
 import profile from "../../images/profile.JPG";
 import thinkful from "../../images/thinkfulicon.jpg";
@@ -15,8 +16,8 @@ function Home() {
         <div className="greeting-container">
           <h1>Hi, I'm Xander!</h1>
           <p>
-            Full-stack Developer proficient in Javascript, React.js, Node.js,
-            PostgreSQL, and CSS. I build responsive websites, REStful APIs and SQL Databases.
+            Full-stack Developer and CSS Ninja, proficient in Javascript, React.js, Node.js,
+            and PostgreSQL. I build eye-pleasing responsive websites, REStful APIs and SQL Databases.
           </p>
         </div>
         <div className="profile-picture-container">
@@ -68,9 +69,10 @@ function Home() {
       </div>
       {/*Contact & Links Section*/}
       <div className="contact-links-container">
-        <h2>Links & Contact</h2>
-        <div className="contact-links-inner">
+        <h2>Contact & Links</h2>
+        <div className="email-links-container">
           <EmailForm />
+          <PersonalLinks />
         </div>
       </div>
     </div>

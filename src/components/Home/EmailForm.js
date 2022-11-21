@@ -7,7 +7,6 @@ function EmailForm() {
     e.preventDefault();
     try {
       if (window.confirm("Send this email?")) {
-        const inputs = document.querySelectorAll(".email-input");
         const response = await emailjs.sendForm(
           "service_j0jxz7o",
           "template_87wqnfp",
@@ -22,29 +21,29 @@ function EmailForm() {
     }
   };
   return (
-    <div>
-        <h2>Send me an Email:</h2>
-        <form ref={form} onSubmit={handleSendEmail}>
-      <input
-        className="email-input"
-        placeholder="Your Name"
-        type="text"
-        name="user_name"
-      ></input>
-      <input
-        className="email-input"
-        placeholder="Your Email Address"
-        type="text"
-        name="user_email"
-      ></input>
-      <textarea
-        className="email-input"
-        placeholder="Your Message"
-        type="text"
-        name="user_message"
-      ></textarea>
-      <button type="submit">Send</button>
-    </form>
+    <div className="email-form">
+      <h2>Send me an Email:</h2>
+      <form ref={form} onSubmit={handleSendEmail}>
+        <input
+          className="email-input"
+          placeholder="Your Name"
+          type="text"
+          name="user_name"
+        ></input>
+        <input
+          className="email-input"
+          placeholder="Your Email Address"
+          type="text"
+          name="user_email"
+        ></input>
+        <textarea
+          className="email-input"
+          placeholder="Your Message"
+          type="text"
+          name="user_message"
+        ></textarea>
+        <button type="submit">Send</button>
+      </form>
     </div>
   );
 }

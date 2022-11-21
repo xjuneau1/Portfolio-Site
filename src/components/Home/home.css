@@ -122,24 +122,26 @@ img {
 .contact-links-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: 30px 10px 20px 10px;
-    border: 1px solid #51557E;
-    border-radius: 5px;
+    flex-wrap: wrap;
     padding: 20px;
+    margin: 10px;
 }
+
 .contact-links-container > h2 {
-    color: #D6D5A8;
     align-self: center;
+    color:#D6D5A8;
+    font-size: 32px;
 }
-.contact-links-inner {
+
+.email-links-container {
+    display: flex;
     flex-direction: row;
-    border: 1px solid blue;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
 }
-.personal-links {
-    max-width: 50%;
-    height: 500px;
-}
+
+
 
 @media (640px <= width){
     .intro-container{

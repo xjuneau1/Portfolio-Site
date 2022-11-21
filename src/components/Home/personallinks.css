@@ -1,0 +1,40 @@
+.links-container {
+    min-width: 20%;
+    margin: 10px;
+    padding: 20px
+}
+
+.link-entry {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #00000000;
+    transition: ease-in-out 750ms;
+}
+
+.link-entry:hover{
+    border: 1px solid #D6D5A8;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: -5px 8px 10px black;
+}
+
+.link-entry > img {
+    width: 60px;
+    border-radius: 10px;
+}
+
+.link-entry > a {
+    align-self: center;
+    margin-left: 20px;
+    color: #D6D5A8;
+    font-size: 20px;
+    text-decoration: none;
+    transition: ease-in-out 800ms;
+}
+
+.link-entry > a:hover {
+    text-decoration: 2px solid underline #51557E;
+}
