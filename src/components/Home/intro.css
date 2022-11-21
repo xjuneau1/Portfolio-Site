@@ -39,7 +39,7 @@ img {
     max-width: 375px;
 }
 
-@media (680px <= width){
+@media (800px <= width){
     .intro-container{
         display: flex;
         flex-direction: row;

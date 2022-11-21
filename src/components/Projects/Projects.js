@@ -26,6 +26,7 @@ function Projects() {
           gitHubLinkIcon,
           demoLink,
           demoLinkIcon,
+          technologies,
         } = project;
         return (
           <div
@@ -38,6 +39,14 @@ function Projects() {
             </div>
             <div className="project-card-row">
               <div className="project-card-description">{description}</div>
+            </div>
+            <div className="project-card-row-tech">
+              <h3>Technologies</h3>
+              <ul>
+                {technologies.map((tech, index) => (
+                  <li key={index}>{tech}</li>
+                ))}
+              </ul>
             </div>
             <div className="project-card-row">
               <a href={gitHubLink} target="_blank">

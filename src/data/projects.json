@@ -7,36 +7,40 @@
     "gitHubLink": "https://github.com/xjuneau1/restaurant-reservation-capstone",
     "gitHubLinkIcon": "./images/githubicon.jpg",
     "demoLink":"https://restaurant-reservation-client-38u4ev0yy-xjuneau1.vercel.app/",
-    "demoLinkIcon": "./images/playbutton.png"
+    "demoLinkIcon": "./images/playbutton.png",
+    "technologies": ["Javascript","Node.js", "React.js", "CSS", "Bootstrap CSS", "Express.js", "Knex.js", "PostgreSQL"]
   },
   {
-    "picture": "/images/restaurantproject.JPG",
-    "alt": "picture of a restaurant application",
-    "name": "Restaurant Reservation System",
-    "description": "Application built for restaurant employees which allows them to create, edit, seat, cancel and keep track of reservations during their shift.",
-    "gitHubLink": "",
+    "picture": "/images/welovemoviesproject.JPG",
+    "alt": "picture of a movies, and movie reviews application",
+    "name": "We Love Movies - Movies, Theaters and Reviews",
+    "description": "A 'Mock' Movie application that shows current movies in theaters, lists all theaters and movies playing at those theaters, and displays information for all movies.",
+    "gitHubLink": "https://github.com/xjuneau1/we-love-movies-capstone",
     "gitHubLinkIcon": "./images/githubicon.jpg",
-    "demoLink":"https://restaurant-reservation-client-38u4ev0yy-xjuneau1.vercel.app/",
-    "demoLinkIcon": "./images/playbutton.png"
+    "demoLink":"https://we-love-movies-qwpj.onrender.com/",
+    "demoLinkIcon": "./images/playbutton.png",
+    "technologies": ["Javascript","Node.js", "Express.js", "Knex.js", "PostgreSQL"]
   },
   {
-    "picture": "/images/restaurantproject.JPG",
-    "alt": "picture of a restaurant application",
-    "name": "Restaurant Reservation System",
-    "description": "Application built for restaurant employees which allows them to create, edit, seat, cancel and keep track of reservations during their shift.",
-    "gitHubLink": "",
+    "picture": "/images/flashcardproject.JPG",
+    "alt": "picture of flashcard study application",
+    "name": "Flashcard Study App",
+    "description": "This application lets you create decks of flashcards for studying. Customize and create cards, then use them for studying for that upcoming exam!",
+    "gitHubLink": "https://github.com/xjuneau1/flashcard-study-app",
     "gitHubLinkIcon": "./images/githubicon.jpg",
-    "demoLink":"https://restaurant-reservation-client-38u4ev0yy-xjuneau1.vercel.app/",
-    "demoLinkIcon": "./images/playbutton.png"
+    "demoLink":"https://stud-flashcard.onrender.com/",
+    "demoLinkIcon": "./images/playbutton.png",
+    "technologies": ["Javascript", "React.js", "Node.js", "Bootstrap CSS"]
   },
   {
-    "picture": "/images/restaurantproject.JPG",
+    "picture": "/images/grubdashproject.JPG",
     "alt": "picture of a restaurant application",
-    "name": "Restaurant Reservation System",
-    "description": "Application built for restaurant employees which allows them to create, edit, seat, cancel and keep track of reservations during their shift.",
-    "gitHubLink": "",
+    "name": "GrubDash",
+    "description": "Built the backend API/server for this application using RESTful architecture. Desgined routes to provide fast an accurate data to the user-end.",
+    "gitHubLink": "https://github.com/xjuneau1/GrubDash-project",
     "gitHubLinkIcon": "./images/githubicon.jpg",
-    "demoLink":"https://restaurant-reservation-client-38u4ev0yy-xjuneau1.vercel.app/",
-    "demoLinkIcon": "./images/playbutton.png"
+    "demoLink":"https://grubdash-d7pj.onrender.com/",
+    "demoLinkIcon": "./images/playbutton.png",
+    "technologies": ["Javascript","Node.js", "Express.js"]
   }
 ]

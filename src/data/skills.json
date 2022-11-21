@@ -1,5 +1,6 @@
 {
-    "frontend":["HTML", "Javascript", "Typescript", "CSS", "Bootstrap CSS", "Tailwind CSS", "React.js", "Node.js"],
-    "backend":["Express.js", "PostgreSQL", "Knex.js", "pg.js", "Node.js", "RESTful API", "Xata DB"],
-    "other":["WordPress"]
+    "frontend":["HTML", "CSS", "Bootstrap CSS", "Tailwind CSS", "React.js", "Node.js"],
+    "backend":["Express.js", "PostgreSQL", "Knex.js", "pg.js", "Node.js", "RESTful API" ],
+    "other":["WordPress", "Xata DB", "email.js", "Browserify"],
+    "languages":["Javascript", "Typescript"]
 }
