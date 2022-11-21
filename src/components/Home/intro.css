@@ -1,3 +1,9 @@
+:root {
+    --teal: rgb(41, 206, 206);
+    --orange: rgb(244, 151, 11);
+    --red: rgb(241, 49, 10);
+}
+
 .intro-container {
     display: flex;
     flex-direction: column;
@@ -15,13 +21,43 @@
 }
 .greeting-container > h1 {
     color:#D6D5A8;
-    font-size: 32px;
+    font-size: 36px;
     margin: 10px 0px 10px 0px;
 }
 .greeting-container > p {
     color: #D6D5A8;
-    font-size: 20px;
+    font-size: 24px;
     margin: 10px 0px 10px 0px;
+}
+
+@keyframes background-pan {
+    from {
+        background-position: 0% center;
+    }
+
+    to {
+        background-position: -200% center;
+    }
+}
+
+.greeting-container > p > .magic > .magic-text {
+    animation: background-pan 3s linear infinite;
+    background: linear-gradient(
+        to right,
+        var(--teal),
+        var(--orange),
+        var(--red),
+        var(--teal)
+    );
+    background-size: 200%;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.greeting-container > p > .magic {
+    display: inline-block;
+    position: relative;
 }
 
 .profile-picture {
