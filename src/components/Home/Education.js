@@ -1,7 +1,7 @@
 import React from 'react';
 import "./education.css"
-import thinkful from "../../images/thinkfulicon.jpg";
-import valencia from "../../images/valenciaicon.png";
+const thinkful = process.env.PUBLIC_URL + "/images/thinkfulicon.jpg"
+const valencia = process.env.PUBLIC_URL + "/images/valenciaicon.png"
 function Education() {
     return ( 
         <div className="education-container">

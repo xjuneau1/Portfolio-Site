@@ -1,8 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import github from "../../images/githubicon.jpg";
-import linkedin from "../../images/linkedinicon.png";
 import "./personallinks.css";
+
+const github = process.env.PUBLIC_URL + "/images/githubicon.jpg"
+const linkedin = process.env.PUBLIC_URL + "/images/linkedinicon.png"
+
 function PersonalLinks() {
   return (
     <div className="links-container">

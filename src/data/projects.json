@@ -1,58 +1,42 @@
 [
   {
-    "picture": "../../images/bckgrnd.jpg",
-    "name": "Project 1",
-    "description": "Lorem ipsum dolor sit et nuit ipsum do",
-    "link": "https://www.google.com",
-    "linkIcon": "./images/project1.jpg"
+    "picture": "/images/restaurantproject.JPG",
+    "alt": "picture of a restaurant application",
+    "name": "Restaurant Reservation System",
+    "description": "Application built for restaurant employees which allows them to create, edit, seat, cancel and keep track of reservations during their shift.",
+    "gitHubLink": "https://github.com/xjuneau1/restaurant-reservation-capstone",
+    "gitHubLinkIcon": "./images/githubicon.jpg",
+    "demoLink":"https://restaurant-reservation-client-38u4ev0yy-xjuneau1.vercel.app/",
+    "demoLinkIcon": "./images/playbutton.png"
   },
   {
-    "picture": "./images/project1.jpg",
-    "name": "Project 2",
-    "description": "Lorem ipsum dolor sit et nuit ipsum do",
-    "link": "https://www.google.com",
-    "linkIcon": "./images/project1.jpg"
+    "picture": "/images/restaurantproject.JPG",
+    "alt": "picture of a restaurant application",
+    "name": "Restaurant Reservation System",
+    "description": "Application built for restaurant employees which allows them to create, edit, seat, cancel and keep track of reservations during their shift.",
+    "gitHubLink": "",
+    "gitHubLinkIcon": "./images/githubicon.jpg",
+    "demoLink":"https://restaurant-reservation-client-38u4ev0yy-xjuneau1.vercel.app/",
+    "demoLinkIcon": "./images/playbutton.png"
   },
   {
-    "picture": "../../images/bckgrnd.jpg",
-    "name": "Project 3",
-    "description": "Lorem ipsum dolor sit et nuit ipsum do",
-    "link": "https://www.google.com",
-    "linkIcon": "./images/project1.jpg"
+    "picture": "/images/restaurantproject.JPG",
+    "alt": "picture of a restaurant application",
+    "name": "Restaurant Reservation System",
+    "description": "Application built for restaurant employees which allows them to create, edit, seat, cancel and keep track of reservations during their shift.",
+    "gitHubLink": "",
+    "gitHubLinkIcon": "./images/githubicon.jpg",
+    "demoLink":"https://restaurant-reservation-client-38u4ev0yy-xjuneau1.vercel.app/",
+    "demoLinkIcon": "./images/playbutton.png"
   },
   {
-    "picture": "./images/project1.jpg",
-    "name": "Project 4",
-    "description": "Lorem ipsum dolor sit et nuit ipsum do",
-    "link": "https://www.google.com",
-    "linkIcon": "./images/project1.jpg"
-  },
-  {
-    "picture": "../../images/bckgrnd.jpg",
-    "name": "Project 5",
-    "description": "Lorem ipsum dolor sit et nuit ipsum do",
-    "link": "https://www.google.com",
-    "linkIcon": "./images/project1.jpg"
-  },
-  {
-    "picture": "./images/project1.jpg",
-    "name": "Project 6",
-    "description": "Lorem ipsum dolor sit et nuit ipsum do",
-    "link": "https://www.google.com",
-    "linkIcon": "./images/project1.jpg"
-  },
-  {
-    "picture": "../../images/bckgrnd.jpg",
-    "name": "Project 7",
-    "description": "Lorem ipsum dolor sit et nuit ipsum do",
-    "link": "https://www.google.com",
-    "linkIcon": "./images/project1.jpg"
-  },
-  {
-    "picture": "./images/project1.jpg",
-    "name": "Project 8",
-    "description": "Lorem ipsum dolor sit et nuit ipsum do",
-    "link": "https://www.google.com",
-    "linkIcon": "./images/project1.jpg"
+    "picture": "/images/restaurantproject.JPG",
+    "alt": "picture of a restaurant application",
+    "name": "Restaurant Reservation System",
+    "description": "Application built for restaurant employees which allows them to create, edit, seat, cancel and keep track of reservations during their shift.",
+    "gitHubLink": "",
+    "gitHubLinkIcon": "./images/githubicon.jpg",
+    "demoLink":"https://restaurant-reservation-client-38u4ev0yy-xjuneau1.vercel.app/",
+    "demoLinkIcon": "./images/playbutton.png"
   }
 ]

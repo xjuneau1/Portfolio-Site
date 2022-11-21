@@ -1,6 +1,7 @@
 import React from 'react';
-import profile from "../../images/profile.JPG";
 import "./intro.css"
+const profile = process.env.PUBLIC_URL + "/images/profile.JPG"
+
 function Intro() {
     return ( 
         <div className="intro-container">

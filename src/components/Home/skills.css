@@ -37,7 +37,7 @@
 
 .skill-card > ul > li {
     list-style: none;
-    list-style-image: url(../../images/check.png);
+    list-style-image: url(../../../public/images/check.png);
     color: #D6D5A8;
     margin-bottom: 5px;
 }

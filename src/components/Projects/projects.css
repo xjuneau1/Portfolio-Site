@@ -6,23 +6,18 @@
     flex-wrap: wrap;
 }
 
-.project-entry{
-    display: flex;
-    min-height: 300px;
-    min-width: 300px;
-    margin: 4px;
-}
-
 .project-card {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    max-width: 100%;
+    align-items: center;
     height: 100%;
     background-color: #1b2430be;
     border: 1px solid #34455b;
     position: relative;
     border-radius: 8px;
+    max-width: 30%;
+    margin: 12px;
+    padding: 20px;
 }
 
 .project-card:hover::before {
@@ -42,19 +37,77 @@
     position: absolute;
     top: 0px;
     width: 100%;
-    z-index: 1;
     opacity: 0;
     transition: opacity 500ms;
 }
 
 .project-card-row {
-    width: 98%;
-    height: 33%;
-    z-index: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
 }
-.project-description {
-    max-width: 40%;
-    height: 90%;
-    /*border: 2px solid blue;*/
+
+.project-card-row > img {
+    max-width: 60%;
+    align-self: center;
     margin: 10px;
+    border-radius: 5px;
+    box-shadow: -5px 8px 10px rgba(0, 0, 0, 0.6);
+}
+
+.project-card-name {
+    color: #876c9e;
+    margin: 10px 0px 10px 0px;
+    align-self: center;
+}
+
+.project-card-description {
+    color: #D6D5A8;
+    margin: 10px 0px 10px 0px;
+}
+
+.project-card-link {
+    display: flex;
+    align-items: center;
+    min-width: 20%;
+    border: 1px solid rgba(255, 255, 255, 0);
+    transition: 850ms;
+    padding: 0px 12px 0px 5px;
+}
+
+.project-card-link:hover {
+    border:1px solid black;
+    border-radius: 5px;
+    color: #816797;
+    box-shadow: -5px 8px 10px black;
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}
+
+a > .project-card-link {
+    margin: 0px 10px 0px 10px;
+    color: #D6D5A8;
+    transition: ease-in-out 750ms;
+}
+a > .project-card-link:hover {
+    cursor: pointer;
+    color: #876c9e;
+}
+
+.project-card-link > img {
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    margin: 5px;
+    
+}
+
+.project-card-link > p {
+    align-self: center;
+}
+
+@media(680px >= width){
+    .project-card {
+        min-width: 80%;
+    }
 }
