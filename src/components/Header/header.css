@@ -31,7 +31,7 @@
     border: 1px solid rgba(255, 255, 255, 0);
     color: #D6D5A8;
     padding: 10px;
-    transition: ease-in-out 850ms;
+    transition: 850ms;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -42,4 +42,13 @@
     color: #816797;
     box-shadow: -5px 8px 10px black;
     cursor: pointer;
+    transform: scale(1.1, 1.1);
+}
+
+@media (680px >= width){
+    .header-button {
+        margin: 5px 10px 5px 10px;
+        padding: 8px;
+        font-size: 18px;
+    }
 }

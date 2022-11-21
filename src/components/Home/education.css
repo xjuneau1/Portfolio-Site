@@ -1,0 +1,28 @@
+.education-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 10px 20px 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.education-container > h2 {
+    align-self: center;
+    font-size: 36px;
+    color: #D6D5A8;
+    margin-bottom: 40px;
+}
+
+.education-entry {
+    display: flex;
+    padding: 20px
+}
+.education-entry > img {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.education-entry > p {
+    color: #D6D5A8;
+    margin: 10px;
+}

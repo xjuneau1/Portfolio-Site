@@ -1,8 +1,9 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./emailform.css";
 function EmailForm() {
   const form = useRef();
+  const [email, setEmail] = useState(false)
   const handleSendEmail = async (e) => {
     e.preventDefault();
     try {
@@ -15,6 +16,7 @@ function EmailForm() {
         );
         console.log("SUCCESS", response.status, response.text);
         e.target.reset();
+        setTimeout(setEmail(true), 2000)
       }
     } catch (error) {
       console.log("FAILED", error);
@@ -43,6 +45,7 @@ function EmailForm() {
           name="user_message"
         ></textarea>
         <button type="submit">Send</button>
+        <p className={email ? "sent active":"sent"}>Thank you, I received your email!</p>
       </form>
     </div>
   );
