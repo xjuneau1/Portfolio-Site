@@ -10,8 +10,8 @@ body {
     overflow-x: hidden;
 }
 
-@media (680px >= width){
+@media (680px <= width){
     body{
-        background-attachment:scroll;
+        background-repeat: no-repeat;
     }
 }
