@@ -14,8 +14,8 @@ function Intro() {
           <span className="magic">
             <span className="magic-text">CSS Ninja</span>
           </span>
-          , proficient in Javascript, React.js, Node.js, and PostgreSQL. I build
-          eye-pleasing responsive websites, REStful APIs and SQL Databases.
+          , proficient in Javascript, React, Express, Node, and PostgreSQL. I build
+          eye-pleasing responsive websites, REST APIs and SQL Databases.
         </p>
       </div>
       <div className="profile-picture-container">

@@ -5,11 +5,14 @@ import Projects from "../Projects/Projects";
 
 function Layout() {
   return (
-  <Routes>
-    <Route path="/" element={<Navigate to="/home" />}/>
-    <Route path="/home" element={<Home />} />
-    <Route path="/projects" element={<Projects />} />
-  </Routes>
+    <div className="bg">
+      <Routes>
+        <Route path="/" element={<Navigate to="/home" />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+    </div>
+    
   );
 }
 

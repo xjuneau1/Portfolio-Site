@@ -1,7 +1,14 @@
-div {
-    margin: 0px;
+
+.bg {
+    
+    background:-webkit-linear-gradient(#1b2430be, #D6D5A8, #816797, #34455b);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.scrolled {
-    background-color: black;
+@media (800px <= width){
+    .bg {
+        background-image: url(../public/images/bckgrnd.jpg);
+        background-attachment: fixed;
+    }
 }
