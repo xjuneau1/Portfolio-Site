@@ -36,7 +36,7 @@ function Header() {
                     Projects
                 </button>
             </Link>
-            <Link to="/about">
+            {/* <Link to="/about">
                 <button
                     type='button'
                     href=""
@@ -45,7 +45,7 @@ function Header() {
                 >
                     About Me
                 </button>
-            </Link>
+            </Link> */}
             </div>
         </div> 
     );
