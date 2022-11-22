@@ -20,7 +20,6 @@
 .header-buttons-container {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     width: 60%;
     height: fit-content;
     justify-content: safe center;
@@ -33,7 +32,7 @@
     color: #D6D5A8;
     padding: 10px;
     transition: 850ms;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -50,7 +49,7 @@
     .header-button {
         margin: 3px 8px 3px 8px;
         padding: 4px;
-        font-size: 18px;
+        font-size: 10px;
     }
     
 }

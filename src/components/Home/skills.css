@@ -25,14 +25,14 @@
     background-color: #1b2430bd;
     padding: 20px;
     margin: 50px;
-    min-width: 20%;
+    min-width: fit-content;
     display: flex;
     flex-direction: column;
 }
 
 .skill-card > h3 {
     color: #876c9e;
-    align-self: center;
+    text-align: center;
 }
 
 .skill-card > ul > li {
@@ -40,4 +40,10 @@
     list-style-image: url(../../../public/images/check.png);
     color: #D6D5A8;
     margin-bottom: 5px;
+}
+
+@media (700px <= width){
+    .skill-card{
+        min-width: 20%;
+    }
 }
