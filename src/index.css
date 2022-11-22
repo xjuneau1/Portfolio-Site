@@ -12,6 +12,6 @@ body {
 
 @media (680px >= width){
     body{
-        background-attachment: fixed;
+        background-attachment:scroll;
     }
 }
