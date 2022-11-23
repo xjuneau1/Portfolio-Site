@@ -5,13 +5,13 @@ function Header() {
     const [navbar, setNavbar] = useState(false)
 
     const changeHeaderBackground = () => {
-        if(window.scrollY < 20){
+        if(window.scrollY < 80){
            return setNavbar(true)
         }
         setNavbar(false)
     }
 
-    window.addEventListener("scroll", changeHeaderBackground)
+    window.addEventListener("scroll", ()=> console.log(window.scrollY))
     
     return ( 
         <div className={navbar ? "header-container": "header-container active"}>

@@ -15,6 +15,7 @@
 
 .header-container.active {
     background-color: #1B2430;
+    position: sticky;
     border-bottom: 1px solid #51557E;
 }
 
