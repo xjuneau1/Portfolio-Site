@@ -11,7 +11,7 @@ function Header() {
         setNavbar(false)
     }
 
-    window.addEventListener("scroll", ()=> console.log(window.scrollY))
+    window.addEventListener("scroll", changeHeaderBackground)
     
     return ( 
         <div className={navbar ? "header-container": "header-container active"}>
