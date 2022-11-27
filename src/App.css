@@ -1,6 +1,6 @@
 
 .bg {
-    
+    overflow-x: hidden;
     background:-webkit-linear-gradient(#1b2430be, #D6D5A8, #816797, #34455b);
     background-size: cover;
     background-repeat: no-repeat;
