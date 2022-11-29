@@ -24,11 +24,11 @@
   {
     "picture": "/images/flashcardproject.JPG",
     "alt": "picture of flashcard study application",
-    "name": "Flashcard Study App",
+    "name": "Studiest: Make and study flashcards!",
     "description": "This application lets you create decks of flashcards for studying. Customize and create cards, then use them for studying for that upcoming exam!",
-    "gitHubLink": "https://github.com/xjuneau1/flashcard-study-app",
+    "gitHubLink": "https://github.com/xjuneau1/flashcard-client",
     "gitHubLinkIcon": "./images/githubicon.jpg",
-    "demoLink":"https://stud-flashcard.onrender.com/",
+    "demoLink":"https://xjuneau-flashcard.onrender.com/",
     "demoLinkIcon": "./images/playbutton.png",
     "technologies": ["Javascript", "React.js", "Node.js", "Bootstrap CSS"]
   },

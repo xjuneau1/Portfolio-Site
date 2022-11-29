@@ -2,7 +2,7 @@
 html {
   min-height: 100vh;
   min-width: 100vw;
- 
+  overflow-x: hidden;
 }
 
 body {
@@ -11,6 +11,6 @@ body {
   height: 100%;
   width: 100%;
   font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
   display: initial;
-  
 }
