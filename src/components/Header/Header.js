@@ -1,17 +1,22 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import "./header.css"
 import { Link } from 'react-router-dom';
 function Header() {
     const [navbar, setNavbar] = useState(false)
 
     const changeHeaderBackground = () => {
-        if(window.scrollY < 10){
+        if(window.scrollY < 20){
            return setNavbar(true)
         }
         setNavbar(false)
     }
 
-    window.addEventListener("scroll", changeHeaderBackground)
+    useEffect(()=>{
+        window.addEventListener("scroll", changeHeaderBackground)
+        return () => {
+            window.removeEventListener("scroll", changeHeaderBackground);
+          }
+    },[])
     
     return ( 
         <div className={navbar ? "header-container": "header-container active"}>

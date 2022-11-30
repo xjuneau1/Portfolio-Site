@@ -4,6 +4,7 @@
     margin: 30px 10px 20px 10px;
     border-radius: 5px;
     padding: 20px;
+    width: 50%;
 }
 .education-container > h2 {
     align-self: center;
@@ -14,13 +15,15 @@
 
 .education-entry {
     display: flex;
-    padding: 20px
+    padding: 20px;
+    width: 100%;
 }
 .education-entry > img {
     height: 100px;
     width: 100px;
     margin: 10px;
     border-radius: 10px;
+    align-self: center;
 }
 .education-entry > p {
     color: #D6D5A8;

@@ -1,5 +1,9 @@
 
 .bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:static;
     overflow-x: hidden;
     background:-webkit-linear-gradient(#1b2430be, #D6D5A8, #816797, #34455b);
     background-size: cover;

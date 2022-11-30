@@ -6,15 +6,18 @@
     width: 100vw;
     height: 8vh;
     justify-content: center;
-    position: sticky;
+    align-items: center;
+    position:sticky;
     top: 0;
+    left: 0;
     transition: ease-in-out 900ms;
     z-index: 3;
     background-color: #1b2430bd;
-    border: none;
+    border-bottom: 1px solid #ffffff00;
 }
 
 .header-container.active {
+    position: fixed;
     background-color: #1B2430;
     border-bottom: 1px solid #51557E;
 }

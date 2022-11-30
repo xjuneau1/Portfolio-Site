@@ -4,13 +4,17 @@
     display: flex;
     flex-direction: column;
 }
-
+.education-contact-links{
+    display: flex;
+    justify-content: center;
+}
 .contact-links-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 20px;
     margin: 10px;
+    width: 50%;
 }
 
 .contact-links-container > h2 {
@@ -25,4 +29,10 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 20px;
+}
+
+@media (800px >= width){
+    .education-contact-links{
+        flex-direction: column;
+    }
 }

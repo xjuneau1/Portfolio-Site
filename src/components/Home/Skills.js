@@ -20,15 +20,15 @@ function Skills() {
             </ul>
           </div>
           <div className='skill-card'>
-            <h3>Libraries and Tools</h3>
-            <ul>
-              {other.map((skill, index)=> <li key={index}>{skill}</li>)}
-            </ul>
-          </div>
-          <div className='skill-card'>
             <h3>Programming Languages</h3>
             <ul>
               {languages.map((lang, index)=> <li key={index}>{lang}</li>)}
+            </ul>
+          </div>
+          <div className='skill-card'>
+            <h3>Libraries and Tools</h3>
+            <ul>
+              {other.map((skill, index)=> <li key={index}>{skill}</li>)}
             </ul>
           </div>
         </div>

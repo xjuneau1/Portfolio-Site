@@ -11,12 +11,14 @@ function Home() {
     <div className="home-container">
       <Intro />
       <Skills />
-      <Education />
-      <div className="contact-links-container">
-        <h2>Contact & Links</h2>
-        <div className="email-links-container">
-          <EmailForm />
-          <PersonalLinks />
+      <div className="education-contact-links">
+        <Education />
+        <div className="contact-links-container">
+          <h2>Contact & Links</h2>
+          <div className="email-links-container">
+            <EmailForm />
+            <PersonalLinks />
+          </div>
         </div>
       </div>
     </div>
