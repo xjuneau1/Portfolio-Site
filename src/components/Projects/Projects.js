@@ -1,6 +1,7 @@
 import React from "react";
 import "./projects.css";
 import projects from "../../data/projects.json";
+import {motion} from "framer-motion"
 function Projects() {
   const handleOnMouseMove = (e) => {
     const { currentTarget: target } = e;
@@ -12,9 +13,14 @@ function Projects() {
     target.style.setProperty("--mouse-x", `${x}px`);
     target.style.setProperty("--mouse-y", `${y}px`);
   };
-
   return (
-    <div className="project-container">
+    <motion.div 
+      className="project-container"
+      transition={{type: "ease", stiffness: 50}}
+      initial={{x: -window.innerWidth, opacity: 0, transition: {duration: 1}}}
+      animate={{x: 0, opacity: 1, transition: {duration: 1}}}
+      exit={{x: window.innerWidth, opacity: 0, transition: {duration: 1}}}
+    >
       <div className="project-header"></div>
       {projects.map((project) => {
         const {
@@ -65,7 +71,7 @@ function Projects() {
           </div>
         );
       })}
-    </div>
+    </motion.div>
   );
 }
 

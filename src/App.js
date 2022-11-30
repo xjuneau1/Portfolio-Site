@@ -8,7 +8,7 @@ function App() {
     <div className="bg">
       <Router>
         <Header />
-        <Layout />
+        <Layout />{/* <AnimatedRoutes />*/}
       </Router>
     </div>
   );

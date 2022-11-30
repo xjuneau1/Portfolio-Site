@@ -9,16 +9,15 @@
 
 .project-card {
     display: flex;
+    flex-basis: 88%;
     flex-direction: column;
     align-items: center;
-    height: 100%;
     background-color: #1b2430be;
     border: 1px solid #34455b;
     position: relative;
     border-radius: 8px;
     max-width: 100%;
-    height: 100%;
-    margin: 12px;
+    margin: 40px;
     padding: 20px;
     z-index: 1;
 }

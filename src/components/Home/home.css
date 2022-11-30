@@ -7,6 +7,7 @@
 .education-contact-links{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .contact-links-container {
     display: flex;
@@ -19,6 +20,7 @@
 
 .contact-links-container > h2 {
     align-self: center;
+    text-align: center;
     color:#D6D5A8;
     font-size: 32px;
 }

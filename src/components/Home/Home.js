@@ -4,11 +4,17 @@ import Intro from "./Intro";
 import Education from "./Education";
 import Skills from "./Skills";
 import PersonalLinks from "./PersonalLinks";
-
+import {motion} from "framer-motion"
 import "./home.css";
 function Home() {
   return (
-    <div className="home-container">
+    <motion.div 
+      className="home-container"
+      transition={{type: "ease", stiffness: 50}}
+      initial={{x: -window.innerWidth, opacity: 0, transition: {duration: 1}}}
+      animate={{x: 0, opacity: 1, transition: {duration: 1}}}
+      exit={{x: window.innerWidth, opacity: 0, transition: {duration: 1}}}
+    >
       <Intro />
       <Skills />
       <div className="education-contact-links">
@@ -21,7 +27,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

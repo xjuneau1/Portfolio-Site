@@ -25,7 +25,7 @@
     "picture": "/images/flashcardproject.JPG",
     "alt": "picture of flashcard study application",
     "name": "Studiest: Make and study flashcards!",
-    "description": "This application lets you create decks of flashcards for studying. Customize and create cards, then use them for studying for that upcoming exam!",
+    "description": "This application lets you create decks of flashcards for studying. Customize and create cards, then use them for studying for that upcoming exam! This was a project I worked on at Thinkful, I rebuilt the entire application front and back end from the ground up using JS, React and raw CSS.",
     "gitHubLink": "https://github.com/xjuneau1/flashcard-client",
     "gitHubLinkIcon": "./images/githubicon.jpg",
     "demoLink":"https://xjuneau-flashcard.onrender.com/",
