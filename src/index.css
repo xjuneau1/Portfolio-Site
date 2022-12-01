@@ -4,6 +4,7 @@ html {
   min-width: 100vw;
   overflow-x: hidden;
   appearance: none;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -13,5 +14,6 @@ body {
   width: 100%;
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
-  display: initial;
+  display:flex;
+  flex-direction: column;
 }

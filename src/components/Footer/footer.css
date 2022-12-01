@@ -1,0 +1,28 @@
+.footer-container {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    background-color: #1b2430be;
+    height: 60px;
+    bottom: 0;
+    width: 80vw;
+    border-radius: 20px;
+    z-index: 0;
+    transform: translateY(40px);
+    transition: 3000ms;
+}
+
+.footer-container.active {
+    opacity: 1;
+    transform: translateY(20px);
+}
+
+.footer-content {
+    margin: 5px;
+}
+
+.footer-content > a{
+    color: #D6D5A8;
+}

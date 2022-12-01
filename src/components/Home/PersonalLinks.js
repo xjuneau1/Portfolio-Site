@@ -6,7 +6,7 @@ const linkedin = process.env.PUBLIC_URL + "/images/linkedinicon.png"
 
 function PersonalLinks() {
   return (
-    <div className="links-container">
+    <div id="contact" className="links-container">
       <a href="https://github.com/xjuneau1" target="_blank">
         <div className="link-entry">
           <img src={github}></img>

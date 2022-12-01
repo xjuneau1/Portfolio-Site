@@ -1,25 +1,12 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
+import { useLocation } from 'react-router-dom';
 import "./header.css"
 import { Link } from 'react-router-dom';
 function Header() {
-    const [navbar, setNavbar] = useState(false)
-
-    const changeHeaderBackground = () => {
-        if(window.scrollY < 20){
-           return setNavbar(true)
-        }
-        setNavbar(false)
-    }
-
-    useEffect(()=>{
-        window.addEventListener("scroll", changeHeaderBackground)
-        return () => {
-            window.removeEventListener("scroll", changeHeaderBackground);
-          }
-    },[])
-    
+    const location = useLocation()
+    console.log(location)
     return ( 
-        <div className={navbar ? "header-container": "header-container active"}>
+        <div id="header" className="header-container">
             <div className='header-buttons-container'>
             <Link to="/home">
                 <button
@@ -41,16 +28,16 @@ function Header() {
                     Projects
                 </button>
             </Link>
-            {/* <Link to="/about">
+            <a href={location.pathname === "/projects" ? "/home": "#contact"}>
                 <button
                     type='button'
                     href=""
                     name='about'
                     className='header-button'
                 >
-                    About Me
+                    Contact
                 </button>
-            </Link> */}
+            </a>
             </div>
         </div> 
     );
