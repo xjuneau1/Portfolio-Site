@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import "./App.css"
 function App() {
+  
   const [footer, setFooter] = useState(false)
   const handleSetFooter = (yPosition) => {
     console.log(yPosition)
@@ -28,8 +29,9 @@ function App() {
     }
   }
   useEffect(()=>{
-    window.addEventListener("scroll", () => {handleSetFooter(window.scrollY)})
-    return () => window.removeEventListener("scroll", ()=> handleSetFooter)
+    window.scrollTo(0, 14)
+    window.addEventListener("scroll", () => handleSetFooter(window.scrollY))
+    return () => window.removeEventListener("scroll", ()=> handleSetFooter(window.scrollY))
   },[])
   return (
     <div className="bg">
