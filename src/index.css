@@ -4,6 +4,8 @@ html {
   min-width: 100vw;
   overflow-x: hidden;
   appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   scroll-behavior: smooth;
 }
 
