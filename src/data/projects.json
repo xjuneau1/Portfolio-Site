@@ -17,7 +17,7 @@
     "description": "A 'Mock' Movie application that shows current movies in theaters, lists all theaters and movies playing at those theaters, and displays information for all movies.",
     "gitHubLink": "https://github.com/xjuneau1/we-love-movies-capstone",
     "gitHubLinkIcon": "./images/githubicon.jpg",
-    "demoLink":"https://we-love-movies-qwpj.onrender.com/",
+    "demoLink":"https://we-love-movies-client-w7t8.onrender.com",
     "demoLinkIcon": "./images/playbutton.png",
     "technologies": ["Javascript","Node.js", "Express.js", "Knex.js", "PostgreSQL"]
   },
