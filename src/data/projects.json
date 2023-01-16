@@ -11,17 +11,6 @@
     "technologies": ["Javascript","Node.js", "React.js", "CSS", "Bootstrap CSS", "Express.js", "Knex.js", "PostgreSQL"]
   },
   {
-    "picture": "/images/welovemoviesproject.JPG",
-    "alt": "picture of a movies, and movie reviews application",
-    "name": "We Love Movies - Movies, Theaters and Reviews",
-    "description": "A 'Mock' Movie application that shows current movies in theaters, lists all theaters and movies playing at those theaters, and displays information for all movies.",
-    "gitHubLink": "https://github.com/xjuneau1/we-love-movies-capstone",
-    "gitHubLinkIcon": "./images/githubicon.jpg",
-    "demoLink":"https://we-love-movies-client-oon8.onrender.com",
-    "demoLinkIcon": "./images/playbutton.png",
-    "technologies": ["Javascript","Node.js", "Express.js", "Knex.js", "PostgreSQL"]
-  },
-  {
     "picture": "/images/flashcardproject.JPG",
     "alt": "picture of flashcard study application",
     "name": "Studiest: Make and study flashcards!",
