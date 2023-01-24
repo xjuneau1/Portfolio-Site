@@ -6,9 +6,18 @@
     "description": "Application built for restaurant employees which allows them to create, edit, seat, cancel and keep track of reservations during their shift.",
     "gitHubLink": "https://github.com/xjuneau1/restaurant-reservation-capstone",
     "gitHubLinkIcon": "./images/githubicon.jpg",
-    "demoLink":"https://restaurant-reservation-client-38u4ev0yy-xjuneau1.vercel.app/",
+    "demoLink": "https://restaurant-reservation-client-38u4ev0yy-xjuneau1.vercel.app/",
     "demoLinkIcon": "./images/playbutton.png",
-    "technologies": ["Javascript","Node.js", "React.js", "CSS", "Bootstrap CSS", "Express.js", "Knex.js", "PostgreSQL"]
+    "technologies": [
+      "Javascript",
+      "Node.js",
+      "React.js",
+      "CSS",
+      "Bootstrap CSS",
+      "Express.js",
+      "Knex.js",
+      "PostgreSQL"
+    ]
   },
   {
     "picture": "/images/flashcardproject.JPG",
@@ -17,19 +26,26 @@
     "description": "This application lets you create decks of flashcards for studying. Customize and create cards, then use them for studying for that upcoming exam! This was a project I worked on at Thinkful, I rebuilt the entire application front and back end from the ground up using JS, React and raw CSS.",
     "gitHubLink": "https://github.com/xjuneau1/flashcard-client",
     "gitHubLinkIcon": "./images/githubicon.jpg",
-    "demoLink":"https://xjuneau-flashcard.onrender.com/",
+    "demoLink": "https://xjuneau-flashcard.onrender.com/",
     "demoLinkIcon": "./images/playbutton.png",
     "technologies": ["Javascript", "React.js", "Node.js", "Bootstrap CSS"]
   },
   {
-    "picture": "/images/grubdashproject.JPG",
-    "alt": "picture of a restaurant application",
-    "name": "GrubDash",
-    "description": "Built the backend API/server for this application using RESTful architecture. Desgined routes to provide fast an accurate data to the user-end.",
-    "gitHubLink": "https://github.com/xjuneau1/GrubDash-project",
+    "picture": "/images/angularecommerce.jpg",
+    "alt": "picture of a ecommerce application",
+    "name": "Angular E-commerce Store",
+    "description": "Followed a 4-hour course on using Typescript and Angular to build components, handle bindings, and display fake products to a user, allowing customers to add products to a cart and checkout using Stripe.",
+    "gitHubLink": "https://github.com/xjuneau1/angular-ecommerce",
     "gitHubLinkIcon": "./images/githubicon.jpg",
-    "demoLink":"https://grubdash-d7pj.onrender.com/",
-    "demoLinkIcon": "./images/playbutton.png",
-    "technologies": ["Javascript","Node.js", "Express.js"]
+    "technologies": [
+      "TypeScript / JavaScript",
+      "RxJs",
+      "Angular.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "Stripe.js",
+      "CORS"
+    ]
   }
 ]

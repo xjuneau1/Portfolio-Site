@@ -61,12 +61,12 @@ function Projects() {
                   <p>GitHub</p>
                 </div>
               </a>
-              <a href={demoLink} target="_blank">
+              {demoLink ? <a href={demoLink} target="_blank">
                 <div className="project-card-link">
                   <img src={demoLinkIcon}></img>
                   <p>Demo</p>
                 </div>
-              </a>
+              </a>: <></>}
             </div>
           </div>
         );
